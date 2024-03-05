@@ -6,3 +6,5 @@
 frequency of at least one of the chosen numbers is different.--> Combination_Sum.java</h5>
 <h5>Given an array of integers heights representing the histogram's bar height where the width of each bar is 1, return the area of the largest rectangle in the histogram. --> Largest_Are_Under_Histrogram.java</h5>
 <h5>Find all possiable permutation of the given String --> Permutation_1.java , PermutationWithDuplicate.java </h5>
+<h5>Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.</h5>
+
