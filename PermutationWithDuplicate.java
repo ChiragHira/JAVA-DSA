@@ -1,19 +1,22 @@
-import java.util.HashSet;
+package Permutation;
+
+import Permutation.Permutation_1;
+import java.util.LinkedHashSet;
+
 
 public class PermutationWithDuplicate {
+
+    public static LinkedHashSet<String> set = new LinkedHashSet<>();
 
     public static void permute(String str,int l,int r){
         //Base Case
         if (l==r){
-            System.out.println(str);
+            set.add(str);
             return;
         }
 
-        HashSet<Character> set = new HashSet<>();
         for (int i = l; i < str.length(); i++){
-            if(set.contains(str.charAt(i))) continue;
 
-            set.add(str.charAt(i));
             str = Permutation_1.swap(str,l,i);
             permute(str,l+1,r);
             str = Permutation_1.swap(str,l,i);
@@ -22,7 +25,8 @@ public class PermutationWithDuplicate {
 
     }
     public static void main(String[] args) {
-        String s = "ABA";
+        String s = "ABAB";
         permute(s,0,3);
+        System.out.println(set);
     }
 }
