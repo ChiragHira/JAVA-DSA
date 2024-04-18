@@ -1,4 +1,4 @@
-<h1> DSA Questions</h1>
+<h1> DSA Question</h1>
 <h5>Given a square matrix, turn it by 90 degrees in a clockwise direction without using any extra space. -->  Rotation.java </h5>
 <h5>Given n pairs of parentheses, write a function to generate all combinations of well-formed parentheses. --> balanceParenthesis.java</h5>
 <h5>Find the Square root of the given number.Return the floor value--> sqrt.java</h5>
